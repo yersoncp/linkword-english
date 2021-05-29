@@ -4,58 +4,63 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>LinkWord English | Word Bank of 1200 High Frequency Writing Words</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Linkword English
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Word Bank of 1200 High Frequency Writing Words
+        </p>
+
+        <p>
+        The words in this word bank are listed in the order of their frequency of use in everyday writing. Since the is the most frequently used word in our language, its number is one in the word bank. The first 25 words are used in 33% of everyday writing, the first 100 words appear in 50% of adult and student writing, and the first 1,000 words are used in 89% of everyday writing.
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div>
+            <ol>
+              <li>the</li>
+              <li>of</li>
+              <li>and</li>
+              <li>a</li>
+              <li>to</li>
+              <li>in</li>
+              <li>is</li>
+              <li>you</li>
+              <li>that</li>
+              <li>it</li>
+              <li>he</li>
+              <li>for</li>
+              <li>was</li>
+              <li>on</li>
+              <li>are</li>
+              <li>as</li>
+              <li>with</li>
+              <li>his</li>
+              <li>they</li>
+              <li>at</li>
+              <li>be</li>
+              <li>this</li>
+              <li>from</li>
+              <li>I</li>
+              <li>have</li>
+            </ol>
+          </div>
         </div>
       </main>
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.zurvin.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by Zurvin
         </a>
       </footer>
 
@@ -66,16 +71,10 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
         }
 
         main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+          padding: 2rem;
         }
 
         footer {
@@ -116,7 +115,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 3rem;
         }
 
         .title,
